@@ -1,0 +1,17 @@
+C:\Users\varun\Downloads\Arduino_DotNet_2_0\Arduino_SerialInterface\Arduino_SerialInterface\bin\Debug\Arduino_SerialInterface.exe.config
+C:\Users\varun\Downloads\Arduino_DotNet_2_0\Arduino_SerialInterface\Arduino_SerialInterface\bin\Debug\Arduino_SerialInterface.exe
+C:\Users\varun\Downloads\Arduino_DotNet_2_0\Arduino_SerialInterface\Arduino_SerialInterface\bin\Debug\Arduino_SerialInterface.pdb
+C:\Users\varun\Downloads\Arduino_DotNet_2_0\Arduino_SerialInterface\Arduino_SerialInterface\bin\Debug\3DChart.exe
+C:\Users\varun\Downloads\Arduino_DotNet_2_0\Arduino_SerialInterface\Arduino_SerialInterface\bin\Debug\3DChart.pdb
+C:\Users\varun\Downloads\Arduino_DotNet_2_0\Arduino_SerialInterface\Arduino_SerialInterface\obj\Debug\Arduino_SerialInterface.csprojResolveAssemblyReference.cache
+C:\Users\varun\Downloads\Arduino_DotNet_2_0\Arduino_SerialInterface\Arduino_SerialInterface\obj\Debug\MainWindow.baml
+C:\Users\varun\Downloads\Arduino_DotNet_2_0\Arduino_SerialInterface\Arduino_SerialInterface\obj\Debug\MainWindow.g.cs
+C:\Users\varun\Downloads\Arduino_DotNet_2_0\Arduino_SerialInterface\Arduino_SerialInterface\obj\Debug\App.g.cs
+C:\Users\varun\Downloads\Arduino_DotNet_2_0\Arduino_SerialInterface\Arduino_SerialInterface\obj\Debug\Arduino_SerialInterface_MarkupCompile.cache
+C:\Users\varun\Downloads\Arduino_DotNet_2_0\Arduino_SerialInterface\Arduino_SerialInterface\obj\Debug\Arduino_SerialInterface.g.resources
+C:\Users\varun\Downloads\Arduino_DotNet_2_0\Arduino_SerialInterface\Arduino_SerialInterface\obj\Debug\Arduino_SerialInterface.Properties.Resources.resources
+C:\Users\varun\Downloads\Arduino_DotNet_2_0\Arduino_SerialInterface\Arduino_SerialInterface\obj\Debug\Arduino_SerialInterface.csproj.GenerateResource.Cache
+C:\Users\varun\Downloads\Arduino_DotNet_2_0\Arduino_SerialInterface\Arduino_SerialInterface\obj\Debug\Arduino_SerialInterface.exe
+C:\Users\varun\Downloads\Arduino_DotNet_2_0\Arduino_SerialInterface\Arduino_SerialInterface\obj\Debug\Arduino_SerialInterface.pdb
+C:\Users\varun\Downloads\Arduino_DotNet_2_0\Arduino_SerialInterface\Arduino_SerialInterface\obj\Debug\Arduino_SerialInterface_MarkupCompile.lref
+C:\Users\varun\Downloads\Arduino_DotNet_2_0\Arduino_SerialInterface\Arduino_SerialInterface\obj\Debug\GeneratedInternalTypeHelper.g.cs

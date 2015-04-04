@@ -1,0 +1,54 @@
+﻿<Window x:Class="Arduino_SerialInterface.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="600"
+        xmlns:System="clr-namespace:System;assembly=mscorlib"
+        xmlns:local="clr-namespace:Arduino_SerialInterface">
+    <Window.Resources>
+        <ObjectDataProvider x:Key="enumValues"
+                            MethodName="GetValues"
+                            ObjectType="{x:Type System:Enum}">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type TypeName="local:MotorSpeed" />
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+    </Window.Resources>
+    <Window.DataContext>
+        <local:DataItem/>
+    </Window.DataContext>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="0" HorizontalAlignment="Stretch">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <TextBlock Text="Speed" Grid.Row="0" Grid.Column="0" Margin="5,93,5,-93"/>
+                <ComboBox  Width="100" Grid.Row="0" Grid.Column="1" Margin="5,93,45,-93" ItemsSource="{Binding Source={StaticResource enumValues}}" SelectedIndex="{Binding Path=SelectedSpeed}"/>
+                <TextBlock  Text="Number of turns" Grid.Row="1" Grid.Column="0" Margin="0,44,0,-44"/>
+                <TextBox Grid.Column="1" Grid.Row="2" Margin="5,22,10,-22" Text="{Binding Path=TotalNumberOfTurns}"/>
+                <Button Content="Send" Grid.Row="2" Margin="0,93,0,-93" Click="getWeatherData_Click"/>
+                <!--<Button Content="test" Click="testClick" />-->
+            </Grid>
+        </StackPanel>
+        <StackPanel Grid.Column="1" HorizontalAlignment="Stretch">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="Number of turns" Grid.Column="0" Margin="15,93,131,-93" Grid.ColumnSpan="2" />
+                <TextBox x:Name="TestName" Grid.Column="1" Margin="36,93,14,-93" Text="{Binding Path=NumberOfTurnsCompleted, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True"/>
+            </Grid>
+        </StackPanel>
+    </Grid>
+</Window>

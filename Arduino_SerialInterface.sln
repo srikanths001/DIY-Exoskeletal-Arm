@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arduino_SerialInterface", "Arduino_SerialInterface\Arduino_SerialInterface.csproj", "{CA8C60A0-E803-449B-BE66-832D0E2BBB37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3DChart", "3DChart\3DChart.csproj", "{D1F5BFD7-61B3-43ED-B8D8-C43899AADCFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA8C60A0-E803-449B-BE66-832D0E2BBB37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA8C60A0-E803-449B-BE66-832D0E2BBB37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA8C60A0-E803-449B-BE66-832D0E2BBB37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA8C60A0-E803-449B-BE66-832D0E2BBB37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1F5BFD7-61B3-43ED-B8D8-C43899AADCFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1F5BFD7-61B3-43ED-B8D8-C43899AADCFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1F5BFD7-61B3-43ED-B8D8-C43899AADCFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1F5BFD7-61B3-43ED-B8D8-C43899AADCFA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
